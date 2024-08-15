@@ -1,0 +1,87 @@
+img {
+    border-radius: 5px;
+    background-position: center;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+body {
+    background: radial-gradient(circle, rgb(255, 215, 215) 0%, rgb(237, 250, 238) 90%, rgba(255,255,255,1) 100%);
+    /* background: radial-gradient(circle, rgb(255, 220, 220) 0%, rgb(255, 230, 240) 50%, rgba(250, 250, 255, 1) 100%); */
+    background-attachment: fixed;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.mt-6 {
+    margin-top: 4rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
+
+.mt-7 {
+    margin-top: 5rem;
+}
+
+.mb-7 {
+    margin-bottom: 5rem;
+}
+
+.img-shadow {
+    box-shadow: 4px 4px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.scroll {
+    scroll-behavior: smooth;
+}
+
+/* BULMA CSS */
+
+.footer {
+    background: rgba(0, 0, 0, 0.0);
+    /* box-shadow: inset 0px 0px 50px 0 rgba(0, 0, 0, 0.05); */
+}
+
+.table {
+    background: transparent;
+}
+
+.navbar {
+    /* background: rgba(255, 255, 255, 1.0); */
+    /* border: 1px dotted rgba(0, 0, 0, 0.1); */
+    /* border-radius: 10px 10px 0 0; */
+    /* width: 75%; */
+    /* margin: 0 auto; */
+    background: transparent;
+}
+
+.navbar-menu.is-active {
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+}
+
+.navbar-item {
+    border-radius: 5px;
+}
+
+.navbar-item:hover {
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* END BULMA CSS */
