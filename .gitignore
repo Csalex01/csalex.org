@@ -162,3 +162,8 @@ cython_debug/
 # Firebase Admin
 credentials.json
 firebase_cred.py
+
+# Node modules
+node_modules/
+.firebase
+.github/workflows
